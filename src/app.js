@@ -5,27 +5,27 @@ let sayi1 =10 ;
 {
     id:1 , name :"doğukan"
 }
-//console.log(student);
+console.log(student);
 function save(ogrenci ,puan=10 ,sac =10) {
     console.log(ogrenci.name+ " " + puan+" "+sac);
 }
-//save(student,undefined,50);
+save(student,undefined,50);
  let students = ["Doğukan Muslukçu","Berfin Muslukçu","Filiz Muslukçu"];
- //console.log(students);
+ console.log(students);
  let students1 = [student,{id:2 , name :"doğukan"},"İzmir",{city:"Ankara"}]
-  //console.log(students1);
+  console.log(students1);
 
 //rest
   let showProducts = function (id,...products) {
       console.log(id);
       console.log(products[0]);
   }
-   //console.log( typeof showProducts);
-   //showProducts(10,["elma","armut","kiraz"]);
-   //spread
-  // let points = [0,2,4,5,6,54,56,12];
-   //console.log(Math.max(...points));
-   //console.log(..."abc","d","efgh",..."hjklm");
+   console.log( typeof showProducts);
+   showProducts(10,["elma","armut","kiraz"]);
+   spread
+   let points = [0,2,4,5,6,54,56,12];
+   console.log(Math.max(...points));
+   console.log(..."abc","d","efgh",..."hjklm");
 
    //Destructing
    let poppulations =[10000,20000,30000,[40000,50000]];
