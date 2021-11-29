@@ -1,7 +1,7 @@
   class Customer{
     constructor(id,customerNumber){
 this.id=id;
-this.customerNumber = customerNumber;
+//this.customerNumber = customerNumber;
     }
 }
 let customer = new Customer(1,"12345");
@@ -10,7 +10,7 @@ customer.name = "Doğukan Muslukçu"
 console.log(customer.id);
 Customer.bisey="bişey";
 console.log(Customer.bisey)
-
+console.log(customer.id);
 class IndividualCustomer extends Customer
 {
 constructor(firstName,id,customerNumber){
