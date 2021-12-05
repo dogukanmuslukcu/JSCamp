@@ -1,5 +1,5 @@
 //fake data
-export const users=[
+export  const users=[
     {
         id:1 ,
         firstName:"Doğukan",
@@ -14,7 +14,6 @@ export const users=[
         firstName:"Berfin",
         lastName:"Muslukçu",
         city:"İstanbul",
-        age:20,
         creditCartNumber:"654321",
         type:"customer"
     },
@@ -47,5 +46,12 @@ export const users=[
         creditCartNumber:"654987",
         salary:200900,
         type:"employe"
+    },{
+        id:8 ,
+        firstName:"Zeliha",
+        lastName:"Muslukçu",
+        city:"Malatya",
+        age:28,
+        type:"user"
     }
 ]

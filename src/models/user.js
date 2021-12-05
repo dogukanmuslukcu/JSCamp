@@ -4,6 +4,6 @@ export default class User {
     this.id = id;
     this.lastName = lastName;
     this.city = city;
-    this.age = age
+    this.age = age;
   }
 }
