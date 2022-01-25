@@ -15,18 +15,21 @@ save(student,undefined,50);
   console.log(students1);
 
 //rest
+console.log("--------------rest------------------");
   let showProducts = function (id,...products) {
       console.log(id);
       console.log(products[0]);
   }
    console.log( typeof showProducts);
    showProducts(10,["elma","armut","kiraz"]);
-   spread
+   //spread
+   console.log("--------------spread------------------");
    let points = [0,2,4,5,6,54,56,12];
    console.log(Math.max(...points));
    console.log(..."abc","d","efgh",..."hjklm");
 
    //Destructing
+   console.log("--------------Destructing------------------");
    let poppulations =[10000,20000,30000,[40000,50000]];
    let [small,medium,high,[veryHigh,maximum]] = poppulations;
    console.log(small);
